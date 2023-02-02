@@ -35,7 +35,7 @@ namespace Ref_Out_ketword_char_and_String_methods
             string str = "Salam necesen? Hikmet?";
 
             //Console.WriteLine(str.Length);
-            Console.WriteLine(findLengthofSentence(str));
+            //Console.WriteLine(findLengthofSentence(str));
 
             // Mellim serti basa dusduyum iki sekilde yazmaga calisdim :
         }
@@ -68,23 +68,23 @@ namespace Ref_Out_ketword_char_and_String_methods
         //}
 
         // Method of Task 3
-        static int findLengthofSentence(string sentence)
-        {
-            //return sentence.Length;
+        //static int findLengthofSentence(string sentence)
+        //{
+        //    ////return sentence.Length;
 
-            string words =sentence.Trim();
-            string newStr = "";
+        //    string words =sentence.Trim();
+        //    string newStr = "";
 
-            for (int i = 0; i < words.Length; i++)
-            {
-                if (char.IsLetter(words[i]))
-                {
-                    newStr += words[i];
-                    newStr += ' ';
-                }
-            }
-            return newStr.Length;
-        }
+        //    for (int i = 0; i < words.Length; i++)
+        //    {
+        //        if (char.IsLetter(words[i]))
+        //        {
+        //            newStr += words[i];
+        //            newStr += ' ';
+        //        }
+        //    }
+        //    return newStr.Length;
+        //}
 
 
     }

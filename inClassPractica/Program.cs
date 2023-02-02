@@ -97,14 +97,12 @@ namespace inClassPractica
         //    int[] newArr = new int[nums.Length + 1];
         //    for (int i = 0; i < nums.Length; i++)
         //    {
-        //        newArr[i] += nums[i];
-        //        if (newArr[i]==nums[i])
-        //        {
-        //          newArr[arrLength.Le] = 25;
-        //            Console.WriteLine(newArr[3]);
-        //        }
+        //        newArr[i] = numArr[i];
+
         //    }
-        //    return newArr;////   DUZELT BUNU <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        //     newArr[newArr.Length - 1] = arrLength;
+        //         numArr = newArr;
+        //    return newArr;  
         //}
 
         //static void rmStrSpace(ref string word)
